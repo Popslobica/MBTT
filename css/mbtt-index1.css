@@ -1,0 +1,355 @@
+* {
+	margin: 0;
+	padding: 0;
+}	
+
+@font-face {
+    font-family: Open Sans;
+    src: url(Font/opensans-bold_0-webfont.woff);
+	src: url(Font/opensans-bold_0-webfont.woff2);
+	src: url(Font/opensans-bolditalic_0-webfont.woff);
+	src: url(Font/opensans-bolditalic_0-webfont.woff2);
+	src: url(Font/opensans-condbold-webfont.woff);
+	src: url(Font/opensans-condbold-webfont.woff2);
+	src: url(Font/opensans-condlightitalic-webfont.woff);
+	src: url(Font/opensans-condlightitalic-webfont.woff2);
+	src: url(Font/opensans-condlight-webfont.woff);
+	src: url(Font/opensans-condlight-webfont.woff2);
+	src: url(Font/opensans-extrabold_0-webfont.woff);
+	src: url(Font/opensans-extrabold_0-webfont.woff2);
+	src: url(Font/opensans-extrabolditalic_0-webfont.woff);
+	src: url(Font/opensans-extrabolditalic_0-webfont.woff2);
+	src: url(Font/opensans-italic_0-webfont.woff);
+	src: url(Font/opensans-italic_0-webfont.woff2);
+	src: url(Font/opensans-light_0-webfont.woff);
+	src: url(Font/opensans-light_0-webfont.woff2);
+	src: url(Font/opensans-lightitalic_0-webfont.woff);
+	src: url(Font/opensans-lightitalic_0-webfont.woff2);
+	src: url(Font/opensans-regular_0-webfont.woff);
+	src: url(Font/opensans-regular_0-webfont.woff2);
+	src: url(Font/opensans-semibold_0-webfont.woff);
+	src: url(Font/opensans-semibold_0-webfont.woff2);
+}
+body {
+	background: white;
+	font-family: Open Sans, sans-serif;
+	font-size: 0.8em;
+	font-weight: 400;
+	letter-spacing: 0.06em;
+	word-spacing: 2px;
+	color: white;
+}
+#heading-light, #heading-white, .heading-dark, #text-light, #text-dark, .light-blue {
+	font-family: Open Sans, sans-serif;
+}
+#heading-white {
+	font-weight: 300;
+	color: white;
+}		
+#heading-light {
+	font-weight: 600;
+	color: #BCBEC0;
+}
+#heading-dark {
+	color: #6D6E71;
+}	
+.light-blue {
+	color: #27AAE1;
+}
+#text-light {
+	font-family: Open Sans, sans-serif;
+	font-weight: 300;
+	color: white;
+}
+#text-dark {
+	color: #6D6E71;
+}	
+#heading-border {
+	padding-bottom: 5px;
+	margin: 0;
+	border-top: 1px solid rgba(188, 190, 192, 0.4);
+	border-bottom: 1px solid rgba(188, 190, 192, 0.4);
+}	
+#header {
+	width: 100%;
+	background: #185DA2;
+}
+#white {
+	display: table;
+	font-family: Open Sans, sans-serif;
+	font-size: 0.9em;
+	font-weight: 300;
+	color: white;
+	margin: 10px 0 0 50px;
+}
+
+
+@media screen and (max-width: 768px) {
+	
+#header-img {
+	display: table;
+	padding: 10px 0;
+	margin-top: -30px;
+	margin-right: 50px;	
+}	
+.nav-links-wrapper {
+}
+.content-1-logo-headings {
+	margin-top: 100px;
+}
+.content-1 {
+	margin-top: 100px;
+}
+.first {
+	margin-top: 50px;
+	color: #6D6E71;
+}	
+.spec {
+	padding-bottom: 50px;
+	margin-top: 70px;
+}
+.spec #heading-border {
+	margin-top: 25px;
+}
+#slicice {
+	margin-top: 50px;
+}	
+.contact-wrapper {
+	margin-top: 50px;
+	padding: 50px 0;
+	background: #185DA2;
+}
+.contact-heading {
+	width: 100%;
+	padding: 10px 0 15px 0;
+	margin-bottom: 100px;
+	background: rgba(241, 242, 242, 0.15);
+}
+.contact-heading h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#text-light {
+	font-family: Open Sans, sans-serif;
+	font-weight: 300;
+	text-align: center;
+	color: white;
+}
+#text-light:first-child {
+	margin-bottom: 50px;
+}	
+#map-container {
+	margin-top: 100px;
+	height: 400px;
+}	
+}
+
+
+@media screen and (min-width: 769px) {
+
+#header-img {
+	display: table;
+	padding: 10px 0;
+	margin-top: -30px;
+	margin-right: 50px;	
+}	
+.nav-links-wrapper {
+}
+.content-1-logo-headings {
+	margin-top: 100px;
+}
+#heading-light {
+	font-weight: 600;
+	text-align: left;
+	margin: 0;
+	color: #BCBEC0;
+}
+.content-1 {
+	margin-top: 100px;
+}
+.first {
+	margin-top: 50px;
+	color: #6D6E71;
+}	
+.spec {
+	padding-bottom: 50px;
+	margin-top: 70px;
+}
+.spec #heading-border {
+	margin-top: 25px;
+}
+#slicice {
+	margin-top: 50px;
+}
+#right-img-float {
+	float: left;
+	width: 33.333333%;
+}	
+.contact-wrapper {
+	margin-top: 50px;
+	padding: 50px 0;
+	background: #185DA2;
+}
+.contact-heading {
+	width: 100%;
+	padding: 10px 0 15px 0;
+	margin-bottom: 100px;
+	background: rgba(241, 242, 242, 0.15);
+}
+.contact-heading h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#text-light {
+	font-family: Open Sans, sans-serif;
+	font-weight: 300;
+	text-align: center;
+	color: white;
+}
+#text-light:first-child {
+	margin-bottom: 50px;
+}	
+#map-container {
+	margin-top: 100px;
+	height: 400px;
+}	
+}
+
+@media screen and (min-width: 993px) {
+	
+#header-img {
+	display: table;
+	padding: 10px 0;
+	margin-top: -30px;
+	margin-right: 50px;	
+}	
+.nav-links-wrapper {
+}
+.content-1-logo-headings {
+	margin-top: 100px;
+}
+#heading-light {
+	font-weight: 600;
+	text-align: left;
+	margin: 0;
+	color: #BCBEC0;
+}
+.content-1 {
+	margin-top: 100px;
+}
+.first {
+	margin-top: 50px;
+	color: #6D6E71;
+}	
+.spec {
+	padding-bottom: 100px;
+	margin-top: 100px;
+}
+.spec #heading-border {
+	margin-top: 25px;
+}
+#slicice {
+	margin-top: 100px;
+}
+#slicice:last-child {
+	padding-top: 30px;
+}	
+#right-img-float {
+	float: left;
+	width: 33.333333%;
+}		
+.contact-wrapper {
+	margin-top: 100px;
+	padding: 50px 0;
+	background: #185DA2;
+}
+.contact-heading {
+	width: 100%;
+	padding: 10px 0 15px 0;
+	margin-bottom: 100px;
+	background: rgba(241, 242, 242, 0.15);
+}
+.contact-heading h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#text-light {
+	font-family: Open Sans, sans-serif;
+	font-weight: 300;
+	text-align: center;
+	color: white;
+}
+#text-light:first-child {
+	margin-bottom: 50px;
+}	
+#map-container {
+	margin-top: 100px;
+	height: 400px;
+}	
+}
+	
+@media screen and (min-width: 1201px) {
+
+	
+
+#header-img {
+	display: table;
+	padding: 10px 0;
+	margin-top: -30px;
+	margin-right: 50px;	
+}	
+.nav-links-wrapper {
+}
+.content-1-logo-headings {
+	margin-top: 200px;
+}
+.content-1 {
+	margin-top: 100px;
+}
+.first {
+	margin-top: 50px;
+	color: #6D6E71;
+}	
+.spec {
+	padding-bottom: 0;
+	margin-top: 70px;
+}
+.spec #heading-border {
+	margin-top: 25px;
+}
+#slicice {
+	margin-top: 100px;
+}	
+#right-img-float {
+	float: none;
+	width: 100%;
+}
+#right-img-float:nth-child(2) {
+	margin: 20px 0;
+}	
+.contact-wrapper {
+	margin-top: 150px;
+	padding: 50px 0;
+	background: #185DA2;
+}
+.contact-heading {
+	width: 100%;
+	padding: 10px 0 15px 0;
+	margin-bottom: 100px;
+	background: rgba(241, 242, 242, 0.15);
+}
+.contact-heading h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#text-light {
+	font-family: Open Sans, sans-serif;
+	font-weight: 300;
+	text-align: left;
+	color: white;
+}	
+#map-container {
+	height: 200px;
+	margin-top: 0;
+}	
+}

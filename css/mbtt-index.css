@@ -1,0 +1,901 @@
+* {
+	margin: 0;
+	padding: 0;
+}	
+h1, h2, h3, h4, h5, h6, div, a, p, img {
+	display: table;
+}
+
+body {
+	background: white;
+	font-family: Open Sans, sans-serif;
+	font-size: 0.8em;
+	font-weight: 300;
+	letter-spacing: 0.06em;
+	word-spacing: 2px;
+	color: white;
+}
+h1 {
+	font-size: 2.8em;
+	font-weight: 600;
+	color: #BCBEC0;
+}	
+h2 {
+	font-size: 2em;
+	font-weight: 400;
+	color: #6D6E71;
+}
+h3 {
+	font-size: 1.5em;
+	font-weight: 400;
+	color: #6D6E71;
+}
+h4 {
+	font-size: 1.2em;
+	font-weight: 300;
+	color: white;
+}	
+.plavo {
+	color: #27AAE1;
+}
+.text-dark {
+	font-size: 1.2em;
+	font-weight: 400;
+	text-align: justify;
+	color: #6D6E71;
+}
+@font-face {
+    font-family: Open Sans;
+    src: url(Font/opensans-bold_0-webfont.woff);
+	src: url(Font/opensans-bold_0-webfont.woff2);
+	src: url(Font/opensans-bolditalic_0-webfont.woff);
+	src: url(Font/opensans-bolditalic_0-webfont.woff2);
+	src: url(Font/opensans-condbold-webfont.woff);
+	src: url(Font/opensans-condbold-webfont.woff2);
+	src: url(Font/opensans-condlightitalic-webfont.woff);
+	src: url(Font/opensans-condlightitalic-webfont.woff2);
+	src: url(Font/opensans-condlight-webfont.woff);
+	src: url(Font/opensans-condlight-webfont.woff2);
+	src: url(Font/opensans-extrabold_0-webfont.woff);
+	src: url(Font/opensans-extrabold_0-webfont.woff2);
+	src: url(Font/opensans-extrabolditalic_0-webfont.woff);
+	src: url(Font/opensans-extrabolditalic_0-webfont.woff2);
+	src: url(Font/opensans-italic_0-webfont.woff);
+	src: url(Font/opensans-italic_0-webfont.woff2);
+	src: url(Font/opensans-light_0-webfont.woff);
+	src: url(Font/opensans-light_0-webfont.woff2);
+	src: url(Font/opensans-lightitalic_0-webfont.woff);
+	src: url(Font/opensans-lightitalic_0-webfont.woff2);
+	src: url(Font/opensans-regular_0-webfont.woff);
+	src: url(Font/opensans-regular_0-webfont.woff2);
+	src: url(Font/opensans-semibold_0-webfont.woff);
+	src: url(Font/opensans-semibold_0-webfont.woff2);
+} 
+
+
+
+@media screen and  (min-width: 240px) and (max-width: 768px) {
+	
+	
+	
+.main {
+	width: 100%;
+}
+.main-width {
+	width: 100%;
+}
+#header {
+	width: 100%;
+	padding: 10px 0;
+	background: #185DA2;
+}		
+#header a {
+	margin: auto;
+}
+#header p {
+	display: none;
+}	
+.nav-links {
+	width: 100%;
+	margin-top: 20px;
+}	
+nav {
+	display: table;
+	width: 155.3px;
+	margin: auto;
+}	
+nav ul {
+	display: block;
+	list-style: none;
+}
+nav ul li {
+	text-align: center;
+	text-decoration: none;
+	width: auto;	
+}
+nav ul li:hover {
+	background: #185DA2;
+}
+nav ul li:hover a {
+	color: white;
+}
+nav ul li a {
+	text-decoration: none;
+	font-size: .9em;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	padding: 10px 0;
+	color: #6D6E71;
+	margin: auto;
+}
+
+
+
+  /*  --  content  --  */
+  
+  
+.content1-wrapper {
+	width: 100%;
+}
+.content-width {
+	width: 90%;
+	margin: auto;
+}
+#homepage-content-wrapper {
+	width: 100%;
+	margin: 50px 0 0 0;
+}	
+.homepage-content-left {
+	width: 100%;
+}
+#logo-and-headings {
+	width: 100%;
+}
+#logo {
+	margin: auto;
+}
+#headings {
+	margin: auto;
+	margin-top: 50px;
+}
+#headings h1 {
+}
+#headings h2 {
+	margin: 10px 0 0 0;
+}	
+#subheading {
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	margin-top: 50px;
+	border-top: 1px solid rgba(188, 190, 192, 0.4);
+	border-bottom: 1px solid rgba(188, 190, 192, 0.4);
+	padding: 15px 0;
+}
+#subheading h3 {
+	text-align: center;
+	margin: auto;
+}	
+.text-area-wrapper {
+	width: 100%;
+	margin: 50px 0 0 0;
+}
+.text-area-width {
+	width: 90%;
+	margin: auto;
+}	
+.homepage-content-left .mercedes-logo {
+	width: 10%;
+	margin: auto;
+	margin-top: 50px;
+}
+.text-dark {
+	font-size: 1.2em;
+	font-weight: 400;
+	color: #6D6E71;
+}
+#warrantly-wrapper {
+	margin-top: 50px;
+}	
+#warrantly-wrapper h1, #warrantly-wrapper h2 {
+	margin: auto;
+}	
+#warrantly-wrapper #subheading {
+	margin-top: 20px;
+}
+#warrantly-wrapper img {
+	width: 50%;
+	margin: auto;
+	margin-top: 50px;
+}
+#warrantly-down-content-right {
+	margin-top: 50px;
+	margin: auto;
+	text-align: center;
+}
+.homepage-content-right {
+	width: 100%;
+	margin-top: 50px;
+}
+.homepage-content-right img {
+	width: 100%;
+	margin: auto;
+}	
+.homepage-content-right .img-second, .homepage-content-right .img-third  {
+	display: none;
+}	
+
+
+
+
+/*  --  Contact bar  --  */
+
+
+#contact-bar-wrapper {
+	width: 100%;
+	margin-top: 50px;
+	background: #185DA2;
+}
+#contact-bar-headding {
+	width: 100%;
+	margin-top: 50px;
+	padding: 15px 0;
+	background: rgba(241, 242, 242, 0.15);
+}
+#contact-bar-headding h4 {
+	margin-left: 5%;
+}
+.contact-bar-info-colums-wrapper {
+	width: 100%;
+	margin: 0 0 50px 0;
+}	
+.contact-bar-info-colums-width {
+	width: 100%;
+}  
+.contact-bar-info-colums-width .text-light {
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+}  
+}
+
+
+
+@media screen and  (min-width: 769px) and (max-width: 992px) {
+	
+	
+	
+.main {
+	width: 100%;
+}
+.main-width {
+	width: 100%;
+}
+#header {
+	width: 100%;
+	padding: 10px 0;
+	background: #185DA2;
+}		
+#header a {
+	margin: auto;
+}
+#header p {
+	margin: auto;
+	margin-top: 10px;
+}	
+.nav-links {
+	width: 90%;
+	margin: auto;
+	margin-top: 30px;
+}	
+nav {
+	display: table;
+	width: 100%;
+}	
+nav ul {
+	display: table-row;
+	list-style: none;
+	height: 100%;
+}
+nav ul li {
+	display: table-cell;
+	text-align: center;
+	text-decoration: none;
+	width: auto;	
+}
+nav ul li:hover {
+	background: #185DA2;
+}
+nav ul li:hover a {
+	color: white;
+}
+nav ul li a {
+	text-decoration: none;
+	font-size: .9em;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	padding: 10px 0;
+	color: #6D6E71;
+	margin: auto;
+}
+
+
+
+  /*  --  content  --  */
+  
+  
+.content1-wrapper {
+	width: 100%;
+}
+.content-width {
+	width: 100%;
+	margin: auto;
+}
+#homepage-content-wrapper {
+	width: 100%;
+	margin: 150px 0 0 0;
+}	
+.homepage-content-left {
+	width: 90%;
+	margin: auto;
+}
+#logo-and-headings {
+	width: 100%;
+}
+#logo {
+	float: left;
+}
+#headings {
+	float: left;
+	margin: 0 0 0 20px;
+}
+#headings h1 {
+	margin: -10px 0 0 0;
+}
+#headings h2 {
+	margin: 8px 0 0 0;
+}	
+#subheading {
+	width: 100%;
+	margin: 50px 0 0 0;
+	border-top: 1px solid rgba(188, 190, 192, 0.4);
+	border-bottom: 1px solid rgba(188, 190, 192, 0.4);
+	padding: 15px 0;
+}	
+.text-area-wrapper {
+	width: 100%;
+	margin: 50px 0 0 0;
+}
+.homepage-content-left .mercedes-logo {
+	float: right;
+	width: 8%;
+	margin: 50px 5% 0 0;
+}	
+#warrantly-wrapper {
+	width: 100%;
+	margin-top: 200px;
+}	
+#warrantly-wrapper h1, #warrantly-wrapper h2 {
+}	
+#warrantly-wrapper #subheading {
+	width: 100%;
+	margin-top: 20px;
+}
+#warrantly-wrapper img {
+	float: left;
+	width: 50%;
+	margin: auto;
+	margin-top: 50px;
+}
+#warrantly-down-content-right {
+	float: left;
+	width: 50%;
+	margin: auto;
+	margin-top: 120px;
+}
+#warrantly-down-content-right h1, #warrantly-down-content-right h2 {
+	text-align: center;
+	margin: auto;
+}	
+.homepage-content-right {
+	width: 100%;
+	margin-top: 50px;
+}
+.homepage-content-right img {
+	width: 100%;
+}	
+.homepage-content-right .img-second, .homepage-content-right .img-third  {
+	display: none;
+}
+
+
+/*  --  Contact bar  --  */
+
+
+#contact-bar-wrapper {
+	width: 100%;
+	margin: 100px 0 0 0;
+	background: #185DA2;
+}
+#contact-bar-headding {
+	width: 100%;
+	margin: 50px 0;
+	padding: 15px 0;
+	background: rgba(241, 242, 242, 0.15);
+}
+#contact-bar-headding h4 {
+	margin-left: 5%;
+}
+.contact-bar-info-colums-wrapper {
+	width: 100%;
+	margin: 0 0 100px 0;
+}	
+.contact-bar-info-colums-width {
+	width: 100%;
+}	
+.contact-bar-info-colums-width .text-light {
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+}  
+}
+
+
+
+@media screen and  (min-width: 993px) and (max-width: 1199px) {
+	
+	
+	
+.main {
+	width: 100%;
+}
+.main-width {
+	width: 100%;
+}
+#header {
+	width: 100%;
+	padding: 10px 0;
+	background: #185DA2;
+}		
+#header a {
+	margin: auto;
+}
+#header p {
+	margin: auto;
+	margin-top: 10px;
+}	
+.nav-links {
+	width: 70%;
+	margin: auto;
+	margin-top: 30px;
+}	
+nav {
+	display: table;
+	width: 100%;
+}	
+nav ul {
+	display: table-row;
+	list-style: none;
+	height: 100%;
+}
+nav ul li {
+	display: table-cell;
+	text-align: center;
+	text-decoration: none;
+	width: auto;	
+}
+nav ul li:hover {
+	background: #185DA2;
+}
+nav ul li:hover a {
+	color: white;
+}
+nav ul li a {
+	text-decoration: none;
+	font-size: .9em;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	padding: 10px 0;
+	color: #6D6E71;
+	margin: auto;
+}
+
+
+
+  /*  --  content  --  */
+  
+  
+.content1-wrapper {
+	width: 100%;
+}
+.content-width {
+	width: 100%;
+	margin: auto;
+}
+#homepage-content-wrapper {
+	width: 70%;
+	margin: auto;
+	margin-top: 150px;
+}	
+.homepage-content-left {
+	width: 100%;
+	margin: auto;
+}
+#logo-and-headings {
+	width: 100%;
+}
+#logo {
+	float: left;
+}
+#headings {
+	float: left;
+	margin: 0 0 0 20px;
+}
+#headings h1 {
+	margin: -10px 0 0 0;
+}
+#headings h2 {
+	margin: 8px 0 0 0;
+}	
+#subheading {
+	width: 100%;
+	margin: 50px 0 0 0;
+	border-top: 1px solid rgba(188, 190, 192, 0.4);
+	border-bottom: 1px solid rgba(188, 190, 192, 0.4);
+	padding: 15px 0;
+}	
+.text-area-wrapper {
+	width: 100%;
+	margin: 50px 0 0 0;
+}
+.homepage-content-left .mercedes-logo {
+	float: right;
+	width: 8%;
+	margin: 50px 5% 0 0;
+}
+#warrantly-wrapper {
+	width: 100%;
+	margin-top: 200px;
+}	
+#warrantly-wrapper h1, #warrantly-wrapper h2 {
+}	
+#warrantly-wrapper #subheading {
+	width: 100%;
+	margin-top: 20px;
+}
+#warrantly-wrapper img {
+	float: left;
+	width: 50%;
+	margin: auto;
+	margin-top: 50px;
+}
+#warrantly-down-content-right {
+	float: left;
+	width: 50%;
+	margin: auto;
+	margin-top: 120px;
+}
+#warrantly-down-content-right h1, #warrantly-down-content-right h2 {
+	text-align: center;
+	margin: auto;
+}	
+.homepage-content-right {
+	width: 100%;
+	margin-top: 50px;
+}
+.homepage-content-right img {
+	float: left;
+	width: 33.333333333%;
+}		
+
+
+/*  --  Contact bar  --  */
+
+
+#contact-bar-wrapper {
+	width: 100%;
+	margin: 100px 0 0 0;
+	background: #185DA2;
+}
+#contact-bar-headding {
+	width: 100%;
+	margin: 50px 0;
+	padding: 15px 0;
+	background: rgba(241, 242, 242, 0.15);
+}
+#contact-bar-headding h4 {
+	margin-left: 15%;
+}
+.contact-bar-info-colums-wrapper {
+	width: 100%;
+	margin: 0 0 100px 0;
+}	
+.contact-bar-info-colums-width {
+	width: 100%;
+}	
+.contact-bar-info-colums-width .text-light {
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+}  
+}
+
+
+	
+
+@media screen and  (min-width: 1200px) {	
+
+
+
+.main {
+	width: 100%;
+}
+.main-width {
+	width: 100%;
+}
+#header {
+	width: 100%;
+	padding: 10px 0;
+	background: #185DA2;
+}		
+#header a {
+	float: right;
+	margin-right: 14%;
+}
+#header p {
+	float: left;
+	margin: 0 0 0 14%;
+}	
+.nav-links {
+	width: 100%;
+	margin-top: 30px;
+}	
+nav {
+	display: table;
+	width: 100%;
+}	
+nav ul {
+	display: table-row;
+	list-style: none;
+	height: 100%;
+}
+nav ul li {
+	display: table-cell;
+	text-align: center;
+	text-decoration: none;
+	width: auto;
+}
+nav ul li:hover {
+	background: #185DA2;
+}
+nav ul li:hover a {
+	color: white;
+}
+nav ul li a {
+	text-decoration: none;
+	font-size: .9em;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	padding: 10px 0;
+	color: #6D6E71;
+	margin: auto;
+}
+	
+
+
+
+  /*  --  content  --  */
+  
+  
+.content1-wrapper {
+	width: 100%;
+	background: url(../Slike/Office4-1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.content-width {
+	width: 72%;
+	margin: auto;
+}
+#homepage-content-wrapper {
+	width: 100%;
+	margin: 200px 0 0 0;
+}	
+.homepage-content-left {
+	float: left;
+	width: 50%;
+}
+#logo-and-headings {
+	width: 100%;
+}
+#logo {
+	float: left;
+}
+#headings {
+	float: left;
+	margin: 0 0 0 20px;
+}
+#headings h1 {
+	margin: -10px 0 0 0;
+}
+#headings h2 {
+	margin: 8px 0 0 0;
+}	
+#subheading {
+	width: 100%;
+	margin: 50px 0 0 0;
+	border-top: 1px solid rgba(188, 190, 192, 0.4);
+	border-bottom: 1px solid rgba(188, 190, 192, 0.4);
+	padding: 15px 0;
+}	
+.text-area-wrapper {
+	width: 100%;
+	margin: 50px 0 0 0;
+}
+.homepage-content-left .mercedes-logo {
+	float: right;
+	width: 8%;
+	margin: 50px 0 0 0;
+}
+#warrantly-wrapper {
+	float: left;
+	width: 100%;
+	margin-top: 100px;
+}
+#warrantly-wrapper #subheading {
+	margin-top: 20px;
+}	
+#warantly-down-content {
+	float: left;
+	width: 100%;
+	margin-top: 50px;
+}
+#warrantly-wrapper img {
+	float: left;
+	width: 50%;
+	margin-top: 50px;
+}	
+#warrantly-down-content-right {
+	width: 50%;
+	float: right;
+	margin: auto;
+	margin-top: 100px;
+}	
+.homepage-content-right {
+	float: right;
+	margin-top: 135px;
+}
+.homepage-content-right img {
+	max-width: 400px;
+}	
+.homepage-content-right .img-second {
+	margin-top: 50px;
+}
+.homepage-content-right .img-third {
+	margin-top: 50px;
+}
+
+
+/*  --  Contact bar  --  */
+
+
+#contact-bar-wrapper {
+	width: 100%;
+	margin: 200px 0 0 0;
+	background: #185DA2;
+}
+#contact-bar-headding {
+	width: 100%;
+	margin: 50px 0;
+	padding: 15px 0;
+	background: rgba(241, 242, 242, 0.15);
+}
+#contact-bar-headding h4 {
+	margin-left: 14%;
+}
+.contact-bar-info-colums-wrapper {
+	width: 100%;
+	margin: 0 0 100px 0;
+}	
+.contact-bar-info-colums-width {
+	float: left;
+	width: 33.333333333%;
+}
+#map-container {
+	width: 100%;
+	height: 250px;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
